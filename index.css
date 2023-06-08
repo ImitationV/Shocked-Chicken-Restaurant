@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+
+@media screen and (min-width: 800px){
+/*---------------------header----------------------*/
+body{
+    background-repeat: no-repeat;
+    background-image: url(images/pexels-ella-olsson-1640773.jpg);
+    background-size: cover;
+    
+}
+#nav{
+    text-align:center;
+}
+#nav li {
+    display:inline;
+}
+#nav a{
+    text-decoration:none;    
+}
+li{
+    background-color: transparent;
+    padding: 12px 12px;
+}
+a{
+    font-family: 'Permanent Marker', cursive;
+    font-size: x-large;
+    color: #54b3d6;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .5s ease-in-out, box-shadow .5s ease-in-out;   
+}
+a:hover{
+    color: black;
+}
+/*-----------------------logo------------------------*/
+img{
+    width: 25%;
+    height: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6%;
+}
+/*-----------------------main body------------------------*/
+.bod{
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+}
+
+
+
+/*-----------------------less than 800px------------------------*/
+@media screen and (max-width: 799px){
+ html{
+    background-color: burlywood;
+
+ }
+ img{
+    width: 45%;
+    height: 45%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+}
+.bod{
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#nav{
+    text-align:center;
+}
+#nav li {
+    display:inline;
+}
+#nav a{
+    text-decoration:none;    
+}
+li{
+    background-color: transparent;
+    padding: 12px 12px;
+}
+a{
+    font-family: 'Permanent Marker', cursive;
+    font-size: x-large;
+    color: #54b3d6;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .5s ease-in-out, box-shadow .5s ease-in-out;   
+}
+a:hover{
+    color: black;
+}
+}

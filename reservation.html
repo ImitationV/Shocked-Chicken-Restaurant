@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>Reservation</title>
+     <link rel="stylesheet" href="reservation.css">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=shadow-multiple">
+</head>
+<body>
+    <nav>
+        <a href="index.html"><img src="images/chick.png" alt="chick logo" class="chick"></a>
+        <ul id="nav">
+              <li><a href="menu.html" ><strong>Menu</strong></a></li>
+              <li><a href="about.html" ><strong>About Us</strong></a></li>
+              <li><a href="reservation.html" ><strong>Reservation</strong></a></li>
+         </ul>
+     </nav>
+    <br><br>
+    <h1>Make Reservation</h1>
+    <div class="float-container">
+     <div class="float-child">
+          <img src="images/syed-ahmad-kgjQ1AGDwE0-unsplash.jpg" alt="">
+     </div>
+     <div class="float-child">
+          <form>
+               <div class="fgroup">
+                    <div class="fulln">
+                        <label>Full Name: </label>
+                        <input id="firstName" type="text" placeholder=" John Doe" required> 
+                    </div>
+                    <div class="email">
+                        <label>Email:</label>
+                        <input type="email" placeholder=" johndoe123@gmail.com" required>
+                    </div>
+                    <div class="number">
+                        <label>Phone Number:</label>
+                        <input type="number" placeholder=" (111) 111-1111" >
+                    </div>
+                    <div class="location">
+                         <label>Location:</label>
+                         <input type="radio"  id="manh" value="Manhattan" name="locate">
+                         <label for="manh">Manhattan</label>
+                         <input type="radio" id="qn" value="Queens" name="locate">
+                         <label for="qn">Queens</label><br><br><br>
+                     </div>
+                     <div class="time">
+                         <label for="dtime">Date & Time:</label>
+                 <input type="datetime-local" id="dtime" name="dtime">
+                    </div>
+                    <div class="guests">
+                        <label>Guests:</label>
+                        <select>
+                            <option value="#">1</option>
+                            <option value="#">2</option>
+                            <option value="#">3</option>
+                            <option value="#">4</option>
+                            <option value="#">5+</option>
+                        </select>
+                    </div>    
+               </div>
+                    <div class="button">
+                        <input type="submit">
+                    </div>    
+                </form>
+     </div>
+    </div>
+    
+</body>
+</html>

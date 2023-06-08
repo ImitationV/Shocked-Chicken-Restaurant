@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+body{
+  background-repeat: no-repeat;
+  background-color: #AFD5EB;
+  background-size: cover;
+}
+/*---------------------header----------------------*/
+@media only screen and (min-width: 800px) {
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+  }
+  
+  li {
+    float: left;
+    padding-top: 32px;
+  }
+  
+  li a {
+    font-family: 'Permanent Marker', cursive;
+    font-size: x-large;
+    color: #54b3d6;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
+  }
+  li a:hover {
+    color: black;
+  }
+  
+/*---------------------logo----------------------*/
+.chick{
+    width: 120px;
+    float: left;
+    padding-top:0px;
+}
+/*---------------------form----------------------*/
+h1{
+  text-align: center;
+}
+.fulln{
+  margin: 4em 4em 0 4em;
+}
+.email {
+  margin: 2em 4em 2em 4em;
+}
+.number {
+  margin: 0em 4em 2em 4em;
+}
+.location{
+  margin: 0em 4em 0 4em;
+}
+.guests {
+  margin: 0em 4em 2em 4em;
+}
+.time{
+  margin: 0em 4em 2em 4em;
+}
+.button{
+  margin-bottom: 2em;
+  display: flex;
+  justify-content: center;
+}
+label{
+  font-weight: bold;
+}
+input{
+  border-bottom: 2px solid black;
+}
+.fulln label {
+  margin-right: 6em;
+}
+.email label {
+  margin-right: 8em;
+}
+.number label {
+  margin-right: 4em;
+}
+.location label{
+  margin-right: 6.5em;
+}
+.guests label {
+  margin-right: 7.5em;
+}
+.time label {
+  margin-right: 5em;
+}
+/*---------------------image----------------------*/
+img{
+  width: 650px;
+  padding-left: 130px;
+}
+.float-container {
+  padding-left: 130px;
+  
+}
+.float-child {
+  width: 42%;
+  float: left;
+  padding-left: 100px;
+  
+} 
+}
